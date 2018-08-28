@@ -1,0 +1,10 @@
+Joshua Wilding
+
+Icon edits
+
+Re-import higher resolution icons from the original Nuvola icon theme (48x48 actions)
+
+Create versions of these icons for higher resolutions; also include scalable versions
+
+Place icons in the AAxBB directories, as well as the scalable/ directory in $ROOT/share/icons/application/
+
