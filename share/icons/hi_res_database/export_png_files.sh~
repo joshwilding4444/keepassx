@@ -1,0 +1,9 @@
+#!/bin/bash
+
+DIRECTORY="/home/josh/builds/keepassx/share/icons/application/22x22/"
+SIZE=22
+
+for FILENAME in ./*.svg; do
+    inkscape $FILENAME --export-png=$DIRECTORY$FILENAME.png -w$SIZE -h$SIZE
+done
+
